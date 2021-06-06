@@ -38,6 +38,178 @@ h1 {
     width: 40%;
 }
 
+.parrafo-mensaje1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.div-boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    height: 300px;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 600px;
+    position: absolute;
+    z-index: 5;
+    margin-top: 200px;
+}
+
+.btn-mensaje1 {
+    margin-top: 60px;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.parrafo-mensaje2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    visibility: none;
+}
+
+.div-boton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    height: 300px;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 600px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 200px;
+}
+
+.btn-mensaje2 {
+    margin-top: 60px;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.parrafo-mensaje3 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    visibility: none;
+}
+
+.div-boton3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    height: 300px;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 650px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 200px;
+}
+
+.btn-mensaje3 {
+    margin-top: 60px;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.parrafo-mensaje4 {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor4 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    visibility: none;
+}
+
+.div-boton4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    height: 300px;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 600px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 200px;
+}
+
+.btn-mensaje4 {
+    margin-top: 60px;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.prueba1 {
+    visibility: none;
+    background-color: #555;
+    height: 70px;
+    width: 140px;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.parrafo-prueba1 {
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+
+.mensaje1, .mensaje2, .mensaje3, .mensaje4 {
+    background-color: #555;
+    height: 80px;
+    border-radius: 8px;
+    width: 90px;
+    position: absolute;
+    z-index: 2;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+}
+
 .img1, .img2, .img3, .img4, .img5, 
 .img6, .img7, .img8, .img9, .img10, 
 .img11, .img12, .img13, .img14, .img15,
@@ -52,7 +224,7 @@ h1 {
 .boton11, .boton12, .boton13, .boton14, .boton15,
 .boton16, .boton17, .boton18, .boton19, .boton20,
 .boton21 {
-    display: inline-block;
+    display: none;
     background: transparent;
     border: transparent;
     position: relative;

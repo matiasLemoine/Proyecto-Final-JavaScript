@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.div-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555;
+    height: 300px;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 500px;
+    position: absolute;
+}
+
+button {
+    margin-top: 60px;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
