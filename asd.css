@@ -1,0 +1,36 @@
+body {
+    margin-top: 500px;
+}
+
+.popuptext1, .popuptext2 {
+    display: none;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.boton1, .boton2 {
+    display: inline-block;
+    background: transparent;
+    border: transparent;
+    position: relative;
+    width: 2%;
+}
+
+.img1, .img2 {
+    cursor: pointer;
+    width: 100%;
+}
+
+.boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
