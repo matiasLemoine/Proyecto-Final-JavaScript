@@ -182,32 +182,58 @@ h1 {
 }
 
 .prueba1 {
-    visibility: none;
+    display: none;
+    left: 400px;
+    top: 400px;
     background-color: #555;
     height: 70px;
     width: 140px;
     border-radius: 4px;
+    border: 2px solid white;
     position: absolute;
     margin-left: 30px;
 }
 
-.parrafo-prueba1 {
+.prueba2, .prueba3 {
+    display: hidden;
+    position: absolute;  
+}
+
+.parrafo-prueba1, .parrafo-prueba2, .parrafo-prueba3 {
     font-size: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 5px;
 }
 
+.mensajes {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 100px;
+}
+
 .mensaje1, .mensaje2, .mensaje3, .mensaje4 {
+    display: none;
     background-color: #555;
-    height: 80px;
+    height: 60px;
     border-radius: 8px;
-    width: 90px;
+    width: 120px;
     position: absolute;
     z-index: 2;
     font-size: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
     padding: 8px;
+    top: 400px;
+}
+
+.mensaje1 {
+    border: 3px solid green;
+}
+
+.mensaje2, .mensaje3, .mensaje4 {
+    border: 3px solid red;
 }
 
 .img1, .img2, .img3, .img4, .img5, 

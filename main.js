@@ -21,6 +21,8 @@ $(".btn-mensaje4").on("click", siguiente4);
 function siguiente4() {
   $(".contenedor4").hide();
   $(".contenedor-prueba1").show();
+  $(".prueba1").show();
+  $(".prueba2").hide();
   $(".boton1").show();
   $(".boton2").show();
   $(".boton3").show();
@@ -48,11 +50,32 @@ function siguiente4() {
 
 $(".boton19").on("click", funcion1);
 function funcion1() {
-  $(".mensaje1").show();
+  $(".mensaje1").fadeIn(1000);
+  $(".mensaje1").delay(1000);
+  $(".mensaje1").fadeOut(1000);
+  $(".prueba1").hide();
+  $(".prueba2").show();
 }
 
+if("click" != funcion1()) {
+  $(".mensaje2").fadeIn(1000);
+  $(".mensaje2").delay(1000);
+  $(".mensaje2").fadeOut(1000);
+}
 
+else if("click" != funcion1()) {
+  $(".mensaje3").fadeIn(1000);
+  $(".mensaje3").delay(1000);
+  $(".mensaje3").fadeOut(1000);
+}
 
+else  {
+  $(".mensaje4").fadeIn(1000);
+  $(".mensaje4").delay(1000);
+  $(".mensaje4").fadeOut(1000);
+  $(".prueba1").hide();
+  $(".prueba2").show();
+}
 //Mensajes popup de cada parte de la placa madre
 
 // $(".boton1").on("click", mostrar1);
