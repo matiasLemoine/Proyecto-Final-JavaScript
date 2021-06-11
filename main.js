@@ -20,7 +20,6 @@ function siguiente3() {
 $(".btn-mensaje4").on("click", siguiente4);
 function siguiente4() {
   $(".contenedor4").hide();
-  $(".contenedor-prueba1").show();
   $(".prueba1").show();
   $(".prueba2").hide();
   $(".boton1").show();
@@ -50,30 +49,154 @@ function siguiente4() {
 
 $(".boton19").on("click", funcion1);
 function funcion1() {
-  $(".mensaje1").fadeIn(1000);
-  $(".mensaje1").delay(1000);
-  $(".mensaje1").fadeOut(1000);
+  $(".mensaje1").fadeIn(500);
+  $(".mensaje1").delay(800);
+  $(".mensaje1").fadeOut(500);
   $(".prueba1").hide();
-  $(".prueba2").show();
+  $(".mensaje-final").delay(1500);
+  $(".mensaje-final").fadeIn(800);
+  $(".mensaje-final").delay(1000);
+  $(".mensaje-final").fadeOut(800);
 }
 
-if("click" != funcion1()) {
-  $(".mensaje2").fadeIn(1000);
-  $(".mensaje2").delay(1000);
-  $(".mensaje2").fadeOut(1000);
+$(".boton1").on("click", funcion2);
+function funcion2() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
 }
 
-else if("click" != funcion1()) {
-  $(".mensaje3").fadeIn(1000);
-  $(".mensaje3").delay(1000);
-  $(".mensaje3").fadeOut(1000);
+$(".boton2").on("click", funcion3);
+function funcion3() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
 }
 
-else  {
-  $(".mensaje4").fadeIn(1000);
-  $(".mensaje4").delay(1000);
-  $(".mensaje4").fadeOut(1000);
-  $(".prueba1").hide();
-  $(".prueba2").show();
+$(".boton3").on("click", funcion4);
+function funcion4() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
 }
+
+$(".boton4").on("click", funcion5);
+function funcion5() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton5").on("click", funcion6);
+function funcion6() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton6").on("click", funcion7);
+function funcion7() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton7").on("click", funcion8);
+function funcion8() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton8").on("click", funcion9);
+function funcion9() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton9").on("click", funcion10);
+function funcion10() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton10").on("click", funcion11);
+function funcion11() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton11").on("click", funcion12);
+function funcion12() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton12").on("click", funcion13);
+function funcion13() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton13").on("click", funcion14);
+function funcion14() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton14").on("click", funcion15);
+function funcion15() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton15").on("click", funcion16);
+function funcion16() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton16").on("click", funcion17);
+function funcion17() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton17").on("click", funcion18);
+function funcion18() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton18").on("click", funcion19);
+function funcion19() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton20").on("click", funcion20);
+function funcion20() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
+$(".boton21").on("click", funcion21);
+function funcion21() {
+  $(".mensaje2").fadeIn(500);
+  $(".mensaje2").delay(800);
+  $(".mensaje2").fadeOut(500);
+}
+
 

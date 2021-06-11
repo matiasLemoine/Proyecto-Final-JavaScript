@@ -11,6 +11,8 @@ html, body {
     height: 100%;
 }
 
+/*Titulo y Imagen de fondo*/
+
 .words {
     display: flex;
     flex-flow: column;
@@ -38,6 +40,8 @@ h1 {
     width: 40%;
 }
 
+/*Carteles introductorios*/
+
 .parrafo-mensaje1 {
     text-align: center;
     color: #fff;
@@ -61,7 +65,7 @@ h1 {
     border-radius: 15px;
     width: 600px;
     position: absolute;
-    z-index: 5;
+    z-index: 6;
     margin-top: 200px;
 }
 
@@ -95,9 +99,9 @@ h1 {
     height: 300px;
     flex-direction: column;
     border-radius: 15px;
-    width: 600px;
+    width: 650px;
     position: absolute;
-    z-index: 4;
+    z-index: 5;
     margin-top: 200px;
 }
 
@@ -133,7 +137,7 @@ h1 {
     border-radius: 15px;
     width: 650px;
     position: absolute;
-    z-index: 3;
+    z-index: 4;
     margin-top: 200px;
 }
 
@@ -169,7 +173,7 @@ h1 {
     border-radius: 15px;
     width: 600px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     margin-top: 200px;
 }
 
@@ -180,6 +184,8 @@ h1 {
     padding: 8px;
     cursor: pointer;
 }
+
+/*Carteles del juego*/
 
 .prueba1 {
     display: none;
@@ -194,12 +200,7 @@ h1 {
     margin-left: 30px;
 }
 
-.prueba2, .prueba3 {
-    display: hidden;
-    position: absolute;  
-}
-
-.parrafo-prueba1, .parrafo-prueba2, .parrafo-prueba3 {
+.parrafo-prueba1{
     font-size: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -213,10 +214,10 @@ h1 {
     top: 100px;
 }
 
-.mensaje1, .mensaje2, .mensaje3, .mensaje4 {
+.mensaje1, .mensaje2{
     display: none;
     background-color: #555;
-    height: 60px;
+    height: 80px;
     border-radius: 8px;
     width: 120px;
     position: absolute;
@@ -232,9 +233,28 @@ h1 {
     border: 3px solid green;
 }
 
-.mensaje2, .mensaje3, .mensaje4 {
+.mensaje2 {
     border: 3px solid red;
 }
+
+.mensaje-final {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    height: 60px;
+    border-radius: 8px;
+    width: 120px;
+    position: absolute;
+    z-index: 2;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 8px;
+    top: 400px;
+    left: 900px;
+}
+
+/*Botones*/
 
 .img1, .img2, .img3, .img4, .img5, 
 .img6, .img7, .img8, .img9, .img10, 
